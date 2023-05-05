@@ -1,0 +1,15 @@
+Ejercicio para usar el Spinner
+
+creamos 2 jlabels, 2 spinners, un jtextfield, y un jbutton
+
+alineamos correctamente los elementos como nos explica en el video
+
+pasamos a ponerle nombre a las variables : para el button, btngeneral, para el textfield txtnumerogenerador y a los spiners spnnum2 y spnnum1
+
+ponemos el jtextfield para que no sea editable y solo se escriba el numero aleatorio que es el que nos intreres
+
+pasamos al codigo y escribimos los numeros, " int num1 = spnnum1.getvalue();
+
+para facilitarnos las cosas hacemos un casting del getvalue a int de la siguiente forma "int  num1= (int)spnnum1.getvalue();" y lo mismo con el spinner 2 "int  num2= (int)spnnum1.getvalue();"
+
+aseguramos para que no puedan introducirnos texto en los spinner poniendo txtnumerogenerado.setText(num_generado+ "");
